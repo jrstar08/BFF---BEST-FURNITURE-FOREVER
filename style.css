@@ -1,13 +1,120 @@
-    /* ----------------------------------------------------------
-    :: Template Name: Karl - Fashion Ecommerce Template
-    :: Author: Colorlib
-    :: Author URL: https://colorlib.com
-    :: Description: Karl is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform. It's super responsive for all      Desktop/Mobile layout.
-    :: Version: 1.0
-    :: Created: 09 January 2018
-    :: Last Updated: 09 January 2018
-    ---------------------------------------------------------- */
+/* CUSTOM BACKGROUND */
 
-    /* -------------------------------------------------
-    ============ PLACE YOUR CUSTOM CSS HERE ============
-    ------------------------------------------------- */
+.bg-red{
+    background: #F44336;
+}
+
+.bg-pink{
+    background: #E91E63;
+}
+
+.bg-purple{
+    background: #9C27B0;
+}
+
+.bg-blue{
+    background: #2196F3;
+}
+
+.bg-green{
+    background: #4CAF50;
+}
+
+.bg-orange{
+    background: #FF5722;
+}
+
+.bg-dark-gray{
+    background: #212121;
+}
+
+/* CUSTOM COLOR */
+
+.red{
+    color: #F44336;
+}
+
+.pink{
+    color: #E91E63;
+}
+
+.purple{
+    color: #9C27B0;
+}
+
+.blue{
+    color: #2196F3;
+}
+
+.green{
+    color: #4CAF50;
+}
+
+.orange{
+    color: #FF5722;
+}
+
+.black{
+    color: #000000;
+}
+
+.white{
+    color: #ffffff;
+}
+
+.margin-top-10px{
+    margin-top: 10px;
+}
+
+.margin-bottom-10px{
+    margin-bottom: 10px;
+}
+
+.padding-top-10px{
+    padding-top: 10px;
+}
+
+.padding-bottom-10px{
+    padding-bottom: 10px;
+}
+
+.margin-top-20px{
+    margin-top: 20px;
+}
+
+.margin-bottom-20px{
+    margin-bottom: 20px;
+}
+
+.padding-top-20px{
+    padding-top: 20px;
+}
+
+.padding-bottom-20px{
+    padding-bottom: 20px;
+}
+
+.margin-top-30px{
+    margin-top: 30px;
+}
+
+.margin-bottom-30px{
+    margin-bottom: 30px;
+}
+
+.padding-top-30px{
+    padding-top: 30px;
+}
+
+.padding-bottom-30px{
+    padding-bottom: 30px;
+}
+
+.padding-5px{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.float-left{
+    float: left;
+}

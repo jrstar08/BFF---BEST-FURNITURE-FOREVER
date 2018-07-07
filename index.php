@@ -20,192 +20,32 @@
 
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
-
 </head>
 
 <body>
-    <div class="catagories-side-menu">
-        <!-- Close Icon -->
-        <div id="sideMenuClose">
-            <i class="ti-close"></i>
-        </div>
-        <!--  Side Nav  -->
-        <div class="nav-side-menu">
-            <div class="menu-list">
-                <h6>Categories</h6>
-                <ul id="menu-content" class="menu-content collapse out">
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#women" class="collapsed active">
-                        <a href="#">HOME <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="women">
-							<li><a href="#">Bedroom</a></li>
-                            <li><a href="#">Kitchen</a></li>
-                            <li><a href="#">Living Room</a></li>
-                            <li><a href="#">Dining Room</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#man" class="collapsed">
-                        <a href="#">OFFICE<span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="man">
-                            <li><a href="#">Office Table</a></li>
-                            <li><a href="#">Office Chair</a></li>
-                            <li><a href="#">Office Cabinets</a></li>
-							<li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#kids" class="collapsed">
-                        <a href="#">OUTDOOR <span class="arrow"></span></a>
-                        <ul class="sub-menu collapse" id="kids">
-                            <li><a href="#">Chairs</a></li>
-                            <li><a href="#">Tables</a></li>
-							<li><a href="#">SWINGS</a></li>
-                        </ul>
-                    </li>
-                    <!-- Single Item -->
-                    <li data-toggle="collapse" data-target="#bags" class="collapsed">
-                        <a href="#">KIDS FURNITURE<span class="arrow"></span></a>
-                        
-                    </li>
-                    <!-- Single Item -->
-                   
-                    <!-- Single Item -->
-
-                </ul>
-            </div>
-        </div>
-    </div>
+    <!-- SIDE MENU  -->
+    <?php include ('components/side_menu.php'); ?>
 
     <div id="wrapper">
-
         <!-- ****** Header Area Start ****** -->
         <header class="header_area">
-            <!-- Top Header Area Start -->
-            <div class="top_header_area">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center justify-content-end">
+            <!-- Top Header Area -->
+            <?php include ('components/top_header_area.php'); ?>
 
-                        <div class="col-12 col-lg-7">
-                            <div class="top_single_area d-flex align-items-center">
-                                <!-- Logo Area -->
-                                <div class="top_logo">
-                                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
-                                </div>
-                                <!-- Cart & Menu Area -->
-                                <div class="header-cart-menu d-flex align-items-center ml-auto">
-                                    <!-- Cart Area -->
-                                    <div class="cart">
-                                        <a href="#" id="header-cart-btn" target="_blank"><span class="cart_quantity">2</span> <i class="ti-bag"></i> Your Bag P11,000.00</a>
-                                        <!-- Cart List Area Start -->
-                                        <ul class="cart-list">
-                                            <li>
-                                                <a href="#" class="image"><img src="img/product-img/product-10.jpg" class="cart-thumb" alt=""></a>
-                                                <div class="cart-item-desc">
-                                                    <h6><a href="#">Sofa</a></h6>
-                                                    <p>1x - <span class="price">P8,500.00</span></p>
-                                                </div>
-                                                <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="image"><img src="img/product-img/product-11.jpg" class="cart-thumb" alt=""></a>
-                                                <div class="cart-item-desc">
-                                                    <h6><a href="#">Stool</a></h6>
-                                                    <p>1x - <span class="price">P2,500.00</span></p>
-                                                </div>
-                                                <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
-                                            </li>
-                                            <li class="total">
-                                                <span class="pull-right">Total:P11,000.00</span>
-                                                <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
-                                                <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="header-right-side-menu ml-15">
-                                        <a href="#" id="sideMenuBtn"><i class="ti-menu" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- Top Header Area End -->
-            <div class="main_header_area">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 d-md-flex justify-content-between">
-                            <!-- Header Social Area -->
-                            <div class="header-social-area">
-                                <a href="#"><span class="karl-level">Share</span> <i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                            <!-- Menu Area -->
-                            <div class="main-menu-area">
-                                <nav class="navbar navbar-expand-lg align-items-start">
-
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#karl-navbar" aria-controls="karl-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="ti-menu"></i></span></button>
-
-                                    <div class="collapse navbar-collapse align-items-start collapse" id="karl-navbar">
-                                        <ul class="navbar-nav animated" id="nav">
-                                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="#" id="karlDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                                <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                                                    <a class="dropdown-item" href="index.html">Home</a>
-                                                    <a class="dropdown-item" href="shop.html">Shop</a>
-                                                    <a class="dropdown-item" href="product-details.html">Product Details</a>
-                                                    <a class="dropdown-item" href="cart.html">Cart</a>
-                                                    <a class="dropdown-item" href="checkout.html">Checkout</a>
-                                                </div>
-                                            </li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Discounted</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#"><span class="karl-level">Hot</span>Bestseller</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                            <!-- Help Line -->
-                            <div class="help-line">
-                                <a href="tel:+346573556778"><i class="ti-headphone-alt"></i> +639973582407</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Main Header Area -->
+            <?php include ('components/main_header_area.php'); ?>
         </header>
         <!-- ****** Header Area End ****** -->
 
-        <section class="top-discount-area d-md-flex align-items-center">
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>Free Shipping &amp; Returns</h5>
-                <h6><a href="#">BUY NOW</a></h6>
-            </div>
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>20% Discount for all businesses</h5>
-                <h6>USE CODE: FURNEVERBUSI2018</h6>
-            </div>
-            <!-- Single Discount Area -->
-            <div class="single-discount-area">
-                <h5>20% Discount for all homes</h5>
-                <h6>USE CODE: FURNEVERHOMIE2018</h6>
-            </div>
-        </section>
+        <!-- Section -->
+        <?php include ('components/discount_area.php'); ?>
         <!-- ****** Top Discount Area End ****** -->
 
         <!-- ****** Welcome Slides Area Start ****** -->
         <section class="welcome_area">
             <div class="welcome_slides owl-carousel">
                 <!-- Single Slide Start -->
-                <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.jpg);">
+                <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/furniture-trends.jpg);">
                     <div class="container h-100">
                         <div class="row h-100 align-items-center">
                             <div class="col-12">
@@ -220,7 +60,7 @@
                 </div>
 
                 <!-- Single Slide Start -->
-                <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/bg-4.jpg);">
+                <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/home-collection-bg.jpg);">
                     <div class="container h-100">
                         <div class="row h-100 align-items-center">
                             <div class="col-12">
@@ -235,7 +75,7 @@
                 </div>
 
                 <!-- Single Slide Start -->
-                <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/bg-2.jpg);">
+                <div class="single_slide height-800 bg-img background-overlay" style="background-image: url(img/bg-img/furniture-bg.jpg);">
                     <div class="container h-100">
                         <div class="row h-100 align-items-center">
                             <div class="col-12">
@@ -255,7 +95,7 @@
         <!-- ****** Top Catagory Area Start ****** -->
         <section class="top_catagory_area d-md-flex clearfix">
             <!-- Single Catagory -->
-            <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/bg-2.jpg);">
+            <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/office-bg.jpg);">
                 <div class="catagory-content">
                     <h6>For Office</h6>
                     <h2>Sale 25%</h2>
@@ -263,7 +103,7 @@
                 </div>
             </div>
             <!-- Single Catagory -->
-            <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/bg-3.jpg);">
+            <div class="single_catagory_area d-flex align-items-center bg-img" style="background-image: url(img/bg-img/home-bg.jpg);">
                 <div class="catagory-content">
                     <h6>For Home</h6>
                     <h2>Sofa</h2>
@@ -287,7 +127,7 @@
                                 <div class="row">
                                     <div class="col-12 col-lg-5">
                                         <div class="quickview_pro_img">
-                                            <img src="img/product-img/product-1.jpg" alt="">
+                                            <img src="img/product-img/product-1.jpg" alt="" style="width: 100%; height: 250px;">
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-7">
@@ -373,15 +213,15 @@
                     <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.2s">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="img/product-img/product-10.jpg" alt="">
+                            <img src="img/product-img/product-21.jpg" alt=""  style="width: 100%; height: 250px;">
                             <div class="product-quicview">
                                 <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                         <!-- Product Description -->
                         <div class="product-description">
-                            <h4 class="product-price">P15,499.99</h4>
-                            <p>Sofa</p>
+                            <h4 class="product-price">P8,499.99</h4>
+                            <p>Kid's Table</p>
                             <!-- Add to Cart -->
                             <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                         </div>
@@ -391,7 +231,7 @@
                     <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.3s">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="img/product-img/product-20.jpg" alt="">
+                            <img src="img/product-img/product-20.jpg" alt=""  style="width: 100%; height: 250px;">
                             <div class="product-quicview">
                                 <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                             </div>
@@ -409,7 +249,7 @@
                     <div class="col-12 col-sm-6 col-md-4 single_gallery_item access wow fadeInUpBig" data-wow-delay="0.4s">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="img/product-img/product-16.jpg" alt="">
+                            <img src="img/product-img/product-16.jpg" alt=""  style="width: 100%; height: 250px;">
                             <div class="product-quicview">
                                 <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                             </div>
@@ -424,10 +264,10 @@
                     </div>
 
                     <!-- Single gallery Item Start -->
-                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item shoes wow fadeInUpBig" data-wow-delay="0.5s">
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.5s">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="img/product-img/product-6.jpg" alt="">
+                            <img src="img/product-img/product-6.jpg" alt=""  style="width: 100%; height: 250px;">
                             <div class="product-quicview">
                                 <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                             </div>
@@ -442,10 +282,10 @@
                     </div>
 
                     <!-- Single gallery Item Start -->
-                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.6s">
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item shoes wow fadeInUpBig" data-wow-delay="0.6s">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="img/product-img/product-14.jpg" alt="">
+                            <img src="img/product-img/product-14.jpg" alt=""  style="width: 100%; height: 250px;">
                             <div class="product-quicview">
                                 <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                             </div>
@@ -463,7 +303,7 @@
                     <div class="col-12 col-sm-6 col-md-4 single_gallery_item kids man wow fadeInUpBig" data-wow-delay="0.7s">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <img src="img/product-img/product-12.jpg" alt="">
+                            <img src="img/product-img/product-12.jpg" alt=""  style="width: 100%; height: 250px;">
                             <div class="product-quicview">
                                 <a href="#" data-toggle="modal" data-target="#quickview"><i class="ti-plus"></i></a>
                             </div>
@@ -521,7 +361,7 @@
                                 <h6>Since I was a kid, my parents are already buying in BFF. I can still remember having a playground made of soft pillows that gives me the feeling of being in clouds. Since my mom is always buying furniture that is inspired by Thailand country, it feels like I'm in Thailand actually! So now, that I already have a family, I still trust BFF.</h6>
                                 <div class="testimonial-info d-flex align-items-center justify-content-center">
                                     <div class="tes-thumbnail">
-                                        <img src="img/bg-img/tes-1.jpg" alt="">
+                                        <img src="img/bg-img/tes-1.jpg" alt=""  style="width: 100%; height: 250px;">
                                     </div>
                                     <div class="testi-data">
                                         <p>Cedric Jason Santos</p>
@@ -536,7 +376,7 @@
                                 <h6>They always consider the safety of their consumers when choosing a manufacturer. Like for the crib of my baby!</h6>
                                 <div class="testimonial-info d-flex align-items-center justify-content-center">
                                     <div class="tes-thumbnail">
-                                        <img src="img/bg-img/tes-1.jpg" alt="">
+                                        <img src="img/bg-img/tes-1.jpg" alt=""  style="width: 100%; height: 250px;">
                                     </div>
                                     <div class="testi-data">
                                         <p>Eileen Bautista</p>
@@ -551,7 +391,7 @@
                                 <h6>Thanks to BFF I received my new study table for only 3 days. I didn't expect that their uploaded picture and the actual look are just the same! Kudos BFF!</h6>
                                 <div class="testimonial-info d-flex align-items-center justify-content-center">
                                     <div class="tes-thumbnail">
-                                        <img src="img/bg-img/tes-1.jpg" alt="">
+                                        <img src="img/bg-img/tes-1.jpg" alt=""  style="width: 100%; height: 250px;">
                                     </div>
                                     <div class="testi-data">
                                         <p>Aileen Joy Sampiano</p>
@@ -569,77 +409,7 @@
         <!-- ****** Popular Brands Area End ****** -->
 
         <!-- ****** Footer Area Start ****** -->
-        <footer class="footer_area">
-            <div class="container">
-                <div class="row">
-                    <!-- Single Footer Area Start -->
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="single_footer_area">
-                            <div class="footer-logo">
-                                <img src="img/core-img/logo.png" alt="">
-                            </div>
-                            <div class="copywrite_text d-flex align-items-center">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Footer Area Start -->
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                        <div class="single_footer_area">
-                            <ul class="footer_widget_menu">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Faq</a></li>
-                                <li><a href="#">Returns</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Single Footer Area Start -->
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-2">
-                        <div class="single_footer_area">
-                            <ul class="footer_widget_menu">
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">Shipping</a></li>
-                                <li><a href="#">Our Policies</a></li>
-                                <li><a href="#">Afiliates</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Single Footer Area Start -->
-                    <div class="col-12 col-lg-5">
-                        <div class="single_footer_area">
-                            <div class="footer_heading mb-30">
-                                <h6>Subscribe to our newsletter</h6>
-                            </div>
-                            <div class="subscribtion_form">
-                                <form action="#" method="post">
-                                    <input type="email" name="mail" class="mail" placeholder="Your email here">
-                                    <button type="submit" class="submit">Subscribe</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="line"></div>
-
-                <!-- Footer Bottom Area Start -->
-                <div class="footer_bottom_area">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="footer_social_area text-center">
-                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php include ('components/footer_area.php'); ?> 
         <!-- ****** Footer Area End ****** -->
     </div>
     <!-- /.wrapper end -->
@@ -654,7 +424,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <script src="function.js"></script>
 </body>
-
 </html>
